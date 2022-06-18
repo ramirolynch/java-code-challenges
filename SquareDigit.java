@@ -18,7 +18,9 @@ public class SquareDigit {
             int digit = Character.digit(c, 10);
             
             // here we are adding the square of digit to the empty string declared in line 8
-            // 
+            // You can use increment operator += to add the result of digit * digit to 
+            // the existing value of string named result
+            
             result += digit * digit;
           }
           

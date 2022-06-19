@@ -5,6 +5,8 @@ import java.util.List;
 
 public class MexicanWave {
     
+        // static: we can access static fields without object initialization.
+    
     public static String[] wave(String str) {    
         
         // List is an interface ArrayList is a class

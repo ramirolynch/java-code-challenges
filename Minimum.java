@@ -1,7 +1,6 @@
 package com.ramirolynch;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
@@ -23,14 +22,14 @@ public class Minimum {
         Set<Integer> set = new HashSet<>();
         
         for (Integer t : values) {
+            
             // Add each integer into the set
             set.add(t);
         }
         
         List<Integer> arr = new ArrayList<>(set);
         
-        Collections.sort(arr);
-        
+        Collections.sort(arr);  
         
         StringBuilder sb = new StringBuilder();
         String result;
@@ -39,7 +38,6 @@ public class Minimum {
     
           int num = arr.get(i);
           sb.append(num);
-   
    
         }
         
@@ -50,7 +48,7 @@ public class Minimum {
     
     public static void main(String[] args) {
         
-        // returns 2
+        // returns 579
          
         int[] myArray = {5, 7, 9, 5, 7};
         
